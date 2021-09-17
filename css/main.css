@@ -35,6 +35,11 @@ h3 {
   margin-bottom: -1.5rem;
 }
 
+hgroup {
+  margin: 0;
+  padding: 0;
+}
+
 img {
   width: 5rem;
   margin: 1.5rem;
