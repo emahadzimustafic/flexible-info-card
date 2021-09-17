@@ -16,14 +16,14 @@ body {
 
 h2 {
   text-align: center;
-  margin-top: 1.5rem;
+  margin-top: 2rem;
   margin-bottom: -1rem;
 }
 
 p {
   margin: 0;
   padding: 2rem;
-  width: 28rem;
+  width: 26rem;
   text-align: left;
 }
 
@@ -31,12 +31,12 @@ li p {
   text-align: left;
 }
 
-h3 {
+hgroup > h3 {
   margin-bottom: -1.5rem;
+  text-align: left;
 }
 
 hgroup {
-  margin-right: 0;
   padding: 0;
 }
 
