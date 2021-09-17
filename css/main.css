@@ -11,15 +11,32 @@ html {
 body {
   background-color: #ccc;
   padding: 2rem;
+  margin: 0;
 }
 
 h2 {
   text-align: center;
+  margin: 0 0 1.5rem;
+}
+
+p {
   margin: 0;
+  padding: 2rem;
+  width: 28rem;
+  text-align: left;
+}
+
+li p {
+  text-align: left;
+}
+
+hgroup {
+  margin: 0px;
 }
 
 img {
   width: 5rem;
+  margin: 1.5rem;
 }
 
 ul {
@@ -29,5 +46,15 @@ ul {
 }
 
 li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 
+a {
+  background-color: #444;
+  padding: .6rem 1rem;
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
 }
